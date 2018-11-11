@@ -15,6 +15,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/full-slider.css" rel="stylesheet">
+        <link href="css/scrolling-nav.css" rel="stylesheet">
+
 
   </head>
 
@@ -35,13 +37,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -87,12 +89,20 @@
     </header>
 
     <!-- Page Content -->
-    <section class="py-5">
+    <section id="about">
       <div class="container">
-        <h1>Full Slider by Start Bootstrap</h1>
-        <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
-          <code>full-slider.css</code>
-          file.</p>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About this page</h2>
+            <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+            <ul>
+              <li>Clickable nav links that smooth scroll to page sections</li>
+              <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+              <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+              <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
